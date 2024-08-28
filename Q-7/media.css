@@ -1,0 +1,11 @@
+@media(max-width:1190px){
+    .w-md-2{
+        width: 50%;
+    }
+}
+
+@media(max-width:767px){
+    .w-sm-1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    background-color: #1b1b1b;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.logo{
+   
+    width: 30%;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    
+}
+
+.nav{
+    
+    width: 70%;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+a:hover{
+    border-bottom: 1px solid #407070;
+    color:orange;
+}
+
+select:hover{
+       border: 1px solid blue;
+}
+
+
+button{
+   
+    border: 1px solid orange;
+    color: orange;
+}
